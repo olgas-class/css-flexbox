@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* COMMON */
+body {
+  font-family: 'Fredoka', sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  /* debug */
+  /* background-color: lightblue; */
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* MAIN */
+.section-title {
+  margin-bottom: 20px;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  width: calc(100% / 3);
+  padding: 10px;
+
+  /* debug */
+  /* background-color: lightcoral;
+  border: 1px solid black; */
+
+}
+
+.card {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card .description {
+  padding: 5px;
+}

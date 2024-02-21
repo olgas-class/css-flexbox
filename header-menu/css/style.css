@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 0 20px;
+  background-color: lightseagreen;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  margin-top: 30px;
+}
+
+ul.header-nav {
+  display: flex;
+}
+
+ul.header-nav > li {
+  margin: 0 10px;
+}

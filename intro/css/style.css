@@ -13,6 +13,7 @@
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   height: 300px;
   background-color: blanchedalmond;
@@ -22,4 +23,12 @@
   background-color: blue;
   height: 40px;
   width: 40px;
+}
+
+.first {
+  flex-grow: 5;
+}
+
+.second {
+  flex-grow: 1;
 }
